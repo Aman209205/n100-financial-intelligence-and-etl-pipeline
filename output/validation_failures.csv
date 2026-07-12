@@ -1,0 +1,326 @@
+rule_id,severity,table,column,entity_id,message
+DQ-02,CRITICAL,profitandloss,company_id/year,ABB_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,ADANIENSOL_2024,"OPM mismatch. Reported: 30.0%, Calculated: 34.39%"
+DQ-02,CRITICAL,profitandloss,company_id/year,ADANIENSOL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,ADANIENT_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,ADANIGREEN_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,ADANIPORTS_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,ADANIPOWER_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,AMBUJACEM_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,APOLLOHOSP_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,ASIANPAINT_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,ATGL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,BAJAJ-AUTO_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2013,"OPM mismatch. Reported: 1353.0%, Calculated: 30.58%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2014,"OPM mismatch. Reported: 2307.0%, Calculated: 31.47%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2015,"OPM mismatch. Reported: 3097.0%, Calculated: 31.36%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2016,"OPM mismatch. Reported: 3466.0%, Calculated: 32.61%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2017,"OPM mismatch. Reported: -5715.0%, Calculated: 53.45%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2018,"OPM mismatch. Reported: -10277.0%, Calculated: 63.12%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2019,"OPM mismatch. Reported: -5447.0%, Calculated: 49.39%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2020,"OPM mismatch. Reported: -9859.0%, Calculated: 55.98%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2021,"OPM mismatch. Reported: -2510.0%, Calculated: 50.12%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2022,"OPM mismatch. Reported: 3170.0%, Calculated: 44.47%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2023,"OPM mismatch. Reported: 13857.0%, Calculated: 34.16%"
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_2024,"OPM mismatch. Reported: 11952.0%, Calculated: 34.69%"
+DQ-02,CRITICAL,profitandloss,company_id/year,AXISBANK_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,AXISBANK_0,"OPM mismatch. Reported: 9061.0%, Calculated: 36.94%"
+DQ-02,CRITICAL,profitandloss,company_id/year,BAJAJFINSV_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,BAJAJHLDNG_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2015,"OPM mismatch. Reported: 1367.0%, Calculated: 32.49%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2016,"OPM mismatch. Reported: 1986.0%, Calculated: 32.25%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2017,"OPM mismatch. Reported: 2867.0%, Calculated: 32.60%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2018,"OPM mismatch. Reported: 3935.0%, Calculated: 32.28%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2019,"OPM mismatch. Reported: 6310.0%, Calculated: 29.50%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2020,"OPM mismatch. Reported: 7608.0%, Calculated: 34.73%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2021,"OPM mismatch. Reported: 6314.0%, Calculated: 40.64%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2022,"OPM mismatch. Reported: 9906.0%, Calculated: 37.55%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2023,"OPM mismatch. Reported: 16018.0%, Calculated: 30.65%"
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_2024,"OPM mismatch. Reported: 19987.0%, Calculated: 29.29%"
+DQ-02,CRITICAL,profitandloss,company_id/year,BAJFINANCE_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,BAJFINANCE_0,"OPM mismatch. Reported: 21417.0%, Calculated: 30.42%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2013,"OPM mismatch. Reported: 1006.0%, Calculated: 30.05%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2014,"OPM mismatch. Reported: 809.0%, Calculated: 29.78%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2015,"OPM mismatch. Reported: 902.0%, Calculated: 29.98%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2016,"OPM mismatch. Reported: -11700.0%, Calculated: 55.44%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2017,"OPM mismatch. Reported: -4372.0%, Calculated: 43.28%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2018,"OPM mismatch. Reported: -9197.0%, Calculated: 56.65%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2019,"OPM mismatch. Reported: -5414.0%, Calculated: 48.79%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2020,"OPM mismatch. Reported: -11728.0%, Calculated: 51.44%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2021,"OPM mismatch. Reported: -6957.0%, Calculated: 51.23%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2022,"OPM mismatch. Reported: -2948.0%, Calculated: 51.12%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2023,"OPM mismatch. Reported: 6329.0%, Calculated: 40.45%"
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_2024,"OPM mismatch. Reported: 4102.0%, Calculated: 37.49%"
+DQ-02,CRITICAL,profitandloss,company_id/year,BANKBARODA_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,BANKBARODA_0,"OPM mismatch. Reported: 3526.0%, Calculated: 37.42%"
+DQ-02,CRITICAL,profitandloss,company_id/year,BHARTIARTL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,BEL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,BHEL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,BOSCHLTD_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,BPCL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,BRITANNIA_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2013,"OPM mismatch. Reported: 655.0%, Calculated: 21.18%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2014,"OPM mismatch. Reported: -672.0%, Calculated: 24.35%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2015,"OPM mismatch. Reported: -621.0%, Calculated: 23.51%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2016,"OPM mismatch. Reported: -8008.0%, Calculated: 40.38%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2017,"OPM mismatch. Reported: -5775.0%, Calculated: 37.85%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2018,"OPM mismatch. Reported: -13350.0%, Calculated: 61.87%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2019,"OPM mismatch. Reported: -11590.0%, Calculated: 56.73%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2020,"OPM mismatch. Reported: -12867.0%, Calculated: 53.88%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2021,"OPM mismatch. Reported: -18367.0%, Calculated: 61.83%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2022,"OPM mismatch. Reported: -13657.0%, Calculated: 58.39%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2023,"OPM mismatch. Reported: -9877.0%, Calculated: 49.80%"
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_2024,"OPM mismatch. Reported: -7745.0%, Calculated: 41.75%"
+DQ-02,CRITICAL,profitandloss,company_id/year,CANBK_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,CANBK_0,"OPM mismatch. Reported: -8985.0%, Calculated: 40.23%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2013,"OPM mismatch. Reported: 472.0%, Calculated: 26.77%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2014,"OPM mismatch. Reported: 578.0%, Calculated: 28.42%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2015,"OPM mismatch. Reported: 696.0%, Calculated: 28.56%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2016,"OPM mismatch. Reported: 899.0%, Calculated: 30.04%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2017,"OPM mismatch. Reported: 1143.0%, Calculated: 28.16%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2018,"OPM mismatch. Reported: 1451.0%, Calculated: 26.10%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2019,"OPM mismatch. Reported: 1888.0%, Calculated: 22.96%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2020,"OPM mismatch. Reported: 1699.0%, Calculated: 27.79%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2021,"OPM mismatch. Reported: 2094.0%, Calculated: 30.40%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2022,"OPM mismatch. Reported: 2924.0%, Calculated: 28.83%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2023,"OPM mismatch. Reported: 3515.0%, Calculated: 28.10%"
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_2024,"OPM mismatch. Reported: 4548.0%, Calculated: 28.10%"
+DQ-02,CRITICAL,profitandloss,company_id/year,CHOLAFIN_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,CHOLAFIN_0,"OPM mismatch. Reported: 5175.0%, Calculated: 28.67%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2013,"OPM mismatch. Reported: 2214.0%, Calculated: 73.26%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2014,"OPM mismatch. Reported: 2147.0%, Calculated: 78.90%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2015,"OPM mismatch. Reported: 2163.0%, Calculated: 80.94%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2016,"OPM mismatch. Reported: 2480.0%, Calculated: 82.02%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2017,"OPM mismatch. Reported: 2496.0%, Calculated: 82.66%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2018,"OPM mismatch. Reported: 2826.0%, Calculated: 81.35%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2019,"OPM mismatch. Reported: 3097.0%, Calculated: 81.07%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2020,"OPM mismatch. Reported: 3206.0%, Calculated: 81.29%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2021,"OPM mismatch. Reported: 4252.0%, Calculated: 77.80%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2022,"OPM mismatch. Reported: 4553.0%, Calculated: 79.08%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2023,"OPM mismatch. Reported: 5027.0%, Calculated: 77.91%"
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_2024,"OPM mismatch. Reported: 6291.0%, Calculated: 75.59%"
+DQ-02,CRITICAL,profitandloss,company_id/year,CIPLA_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,CIPLA_0,"OPM mismatch. Reported: 6906.0%, Calculated: 74.40%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2013,"OPM mismatch. Reported: 18087.0%, Calculated: 73.52%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2014,"OPM mismatch. Reported: 17766.0%, Calculated: 74.84%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2015,"OPM mismatch. Reported: 17343.0%, Calculated: 76.60%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2016,"OPM mismatch. Reported: 18714.0%, Calculated: 75.96%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2017,"OPM mismatch. Reported: 12448.0%, Calculated: 84.07%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2018,"OPM mismatch. Reported: 9288.0%, Calculated: 89.10%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2019,"OPM mismatch. Reported: 25007.0%, Calculated: 74.89%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2020,"OPM mismatch. Reported: 21581.0%, Calculated: 77.54%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2021,"OPM mismatch. Reported: 18628.0%, Calculated: 79.31%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2022,"OPM mismatch. Reported: 24721.0%, Calculated: 77.47%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2023,"OPM mismatch. Reported: 44232.0%, Calculated: 68.01%"
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_2024,"OPM mismatch. Reported: 47971.0%, Calculated: 66.29%"
+DQ-02,CRITICAL,profitandloss,company_id/year,COALINDIA_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,COALINDIA_0,"OPM mismatch. Reported: 46610.0%, Calculated: 66.78%"
+DQ-02,CRITICAL,profitandloss,company_id/year,DABUR_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,DIVISLAB_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,DLF_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,DMART_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,DRREDDY_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,EICHERMOT_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,GAIL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,GODREJCP_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,GRASIM_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,HAL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,HAVELLS_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,HCLTECH_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2013,"OPM mismatch. Reported: 3534.0%, Calculated: 35.22%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2014,"OPM mismatch. Reported: 5602.0%, Calculated: 31.74%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2015,"OPM mismatch. Reported: 7214.0%, Calculated: 31.90%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2016,"OPM mismatch. Reported: 9037.0%, Calculated: 31.75%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2017,"OPM mismatch. Reported: 11374.0%, Calculated: 32.56%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2018,"OPM mismatch. Reported: 13374.0%, Calculated: 34.63%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2019,"OPM mismatch. Reported: 16592.0%, Calculated: 33.15%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2020,"OPM mismatch. Reported: 14593.0%, Calculated: 37.20%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2021,"OPM mismatch. Reported: 16848.0%, Calculated: 40.81%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2022,"OPM mismatch. Reported: 20795.0%, Calculated: 41.61%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2023,"OPM mismatch. Reported: 29932.0%, Calculated: 36.92%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_2024,"OPM mismatch. Reported: -44685.0%, Calculated: 61.41%"
+DQ-02,CRITICAL,profitandloss,company_id/year,HDFCBANK_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,HDFCBANK_0,"OPM mismatch. Reported: -57587.0%, Calculated: 62.61%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2013,"OPM mismatch. Reported: 525.0%, Calculated: 96.27%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2014,"OPM mismatch. Reported: 605.0%, Calculated: 96.48%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2015,"OPM mismatch. Reported: 874.0%, Calculated: 96.79%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2016,"OPM mismatch. Reported: 953.0%, Calculated: 94.74%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2017,"OPM mismatch. Reported: 972.0%, Calculated: 96.83%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2018,"OPM mismatch. Reported: 1074.0%, Calculated: 96.67%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2019,"OPM mismatch. Reported: 1215.0%, Calculated: 96.87%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2020,"OPM mismatch. Reported: 1141.0%, Calculated: 96.12%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2021,"OPM mismatch. Reported: 1235.0%, Calculated: 98.27%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2022,"OPM mismatch. Reported: 778.0%, Calculated: 98.84%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2023,"OPM mismatch. Reported: 80.0%, Calculated: 99.89%"
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_2024,"OPM mismatch. Reported: 531.0%, Calculated: 99.48%"
+DQ-02,CRITICAL,profitandloss,company_id/year,HDFCLIFE_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,HDFCLIFE_0,"OPM mismatch. Reported: 725.0%, Calculated: 99.28%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2014,"OPM mismatch. Reported: 3553.0%, Calculated: 85.94%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2015,"OPM mismatch. Reported: 3520.0%, Calculated: 87.22%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2016,"OPM mismatch. Reported: 4424.0%, Calculated: 84.45%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2017,"OPM mismatch. Reported: 4585.0%, Calculated: 83.97%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2018,"OPM mismatch. Reported: 5334.0%, Calculated: 83.57%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2019,"OPM mismatch. Reported: 5025.0%, Calculated: 85.21%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2020,"OPM mismatch. Reported: 4070.0%, Calculated: 86.09%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2021,"OPM mismatch. Reported: 4058.0%, Calculated: 86.90%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2022,"OPM mismatch. Reported: 3256.0%, Calculated: 88.98%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2023,"OPM mismatch. Reported: 4099.0%, Calculated: 88.00%"
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_2024,"OPM mismatch. Reported: 5235.0%, Calculated: 86.15%"
+DQ-02,CRITICAL,profitandloss,company_id/year,HEROMOTOCO_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,HEROMOTOCO_0,"OPM mismatch. Reported: 5561.0%, Calculated: 86.13%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2013,"OPM mismatch. Reported: 7699.0%, Calculated: 90.40%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2014,"OPM mismatch. Reported: 8024.0%, Calculated: 90.85%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2015,"OPM mismatch. Reported: 8844.0%, Calculated: 91.52%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2016,"OPM mismatch. Reported: 7778.0%, Calculated: 92.12%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2017,"OPM mismatch. Reported: 12317.0%, Calculated: 87.71%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2018,"OPM mismatch. Reported: 13695.0%, Calculated: 88.11%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2019,"OPM mismatch. Reported: 15511.0%, Calculated: 88.12%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2020,"OPM mismatch. Reported: 14306.0%, Calculated: 87.89%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2021,"OPM mismatch. Reported: 17559.0%, Calculated: 86.70%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2022,"OPM mismatch. Reported: 28347.0%, Calculated: 85.47%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2023,"OPM mismatch. Reported: 22666.0%, Calculated: 89.85%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_2024,"OPM mismatch. Reported: 23872.0%, Calculated: 88.95%"
+DQ-02,CRITICAL,profitandloss,company_id/year,HINDALCO_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,HINDALCO_0,"OPM mismatch. Reported: 27931.0%, Calculated: 87.53%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2013,"OPM mismatch. Reported: 4220.0%, Calculated: 84.37%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2014,"OPM mismatch. Reported: 4759.0%, Calculated: 83.72%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2015,"OPM mismatch. Reported: 5412.0%, Calculated: 83.07%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2016,"OPM mismatch. Reported: 5910.0%, Calculated: 81.64%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2017,"OPM mismatch. Reported: 6328.0%, Calculated: 80.92%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2018,"OPM mismatch. Reported: 7499.0%, Calculated: 78.90%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2019,"OPM mismatch. Reported: 8880.0%, Calculated: 77.41%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2020,"OPM mismatch. Reported: 9861.0%, Calculated: 75.21%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2021,"OPM mismatch. Reported: 11626.0%, Calculated: 75.28%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2022,"OPM mismatch. Reported: 12857.0%, Calculated: 75.49%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2023,"OPM mismatch. Reported: 14147.0%, Calculated: 76.65%"
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_2024,"OPM mismatch. Reported: 14659.0%, Calculated: 76.32%"
+DQ-02,CRITICAL,profitandloss,company_id/year,HINDUNILVR_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,HINDUNILVR_0,"OPM mismatch. Reported: 14759.0%, Calculated: 76.45%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2013,"OPM mismatch. Reported: -15085.0%, Calculated: 70.59%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2014,"OPM mismatch. Reported: -13084.0%, Calculated: 66.40%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2015,"OPM mismatch. Reported: -16120.0%, Calculated: 70.53%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2016,"OPM mismatch. Reported: -26955.0%, Calculated: 88.12%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2017,"OPM mismatch. Reported: -37737.0%, Calculated: 104.76%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2018,"OPM mismatch. Reported: -44906.0%, Calculated: 117.12%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2019,"OPM mismatch. Reported: -50971.0%, Calculated: 116.38%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2020,"OPM mismatch. Reported: -45190.0%, Calculated: 100.62%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2021,"OPM mismatch. Reported: -44805.0%, Calculated: 102.41%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2022,"OPM mismatch. Reported: -26558.0%, Calculated: 84.69%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2023,"OPM mismatch. Reported: -17341.0%, Calculated: 72.57%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_2024,"OPM mismatch. Reported: -14152.0%, Calculated: 62.41%"
+DQ-02,CRITICAL,profitandloss,company_id/year,ICICIBANK_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,ICICIBANK_0,"OPM mismatch. Reported: -31575.0%, Calculated: 69.63%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2013,"OPM mismatch. Reported: -178.0%, Calculated: 104.46%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2014,"OPM mismatch. Reported: -225.0%, Calculated: 105.19%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2015,"OPM mismatch. Reported: -221.0%, Calculated: 105.24%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2016,"OPM mismatch. Reported: 764.0%, Calculated: 87.34%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2017,"OPM mismatch. Reported: 919.0%, Calculated: 87.78%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2018,"OPM mismatch. Reported: -262.0%, Calculated: 103.79%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2019,"OPM mismatch. Reported: 1669.0%, Calculated: 85.05%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2020,"OPM mismatch. Reported: 1772.0%, Calculated: 84.61%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2021,"OPM mismatch. Reported: 2072.0%, Calculated: 82.97%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2022,"OPM mismatch. Reported: 1016.0%, Calculated: 93.66%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2023,"OPM mismatch. Reported: 1264.0%, Calculated: 92.93%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_2024,"OPM mismatch. Reported: 2577.0%, Calculated: 87.42%"
+DQ-02,CRITICAL,profitandloss,company_id/year,ICICIGI_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,ICICIGI_0,"OPM mismatch. Reported: 3363.0%, Calculated: 85.57%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2013,"OPM mismatch. Reported: 745.0%, Calculated: 96.28%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2014,"OPM mismatch. Reported: 1504.0%, Calculated: 93.13%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2015,"OPM mismatch. Reported: 1655.0%, Calculated: 95.20%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2016,"OPM mismatch. Reported: 1842.0%, Calculated: 91.17%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2017,"OPM mismatch. Reported: 1806.0%, Calculated: 95.22%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2018,"OPM mismatch. Reported: 1771.0%, Calculated: 95.44%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2019,"OPM mismatch. Reported: 541.0%, Calculated: 98.70%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2020,"OPM mismatch. Reported: -319.0%, Calculated: 101.52%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2021,"OPM mismatch. Reported: -390.0%, Calculated: 100.47%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2022,"OPM mismatch. Reported: -2163.0%, Calculated: 103.40%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2023,"OPM mismatch. Reported: -1757.0%, Calculated: 103.48%"
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_2024,"OPM mismatch. Reported: -1829.0%, Calculated: 102.03%"
+DQ-02,CRITICAL,profitandloss,company_id/year,ICICIPRULI_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,ICICIPRULI_0,"OPM mismatch. Reported: 321.0%, Calculated: 99.59%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2013,"OPM mismatch. Reported: 286.0%, Calculated: 27.88%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2014,"OPM mismatch. Reported: 335.0%, Calculated: 30.95%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2015,"OPM mismatch. Reported: 288.0%, Calculated: 32.33%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2016,"OPM mismatch. Reported: 329.0%, Calculated: 35.28%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2017,"OPM mismatch. Reported: 379.0%, Calculated: 39.46%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2018,"OPM mismatch. Reported: 942.0%, Calculated: 37.93%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2019,"OPM mismatch. Reported: -437.0%, Calculated: 41.70%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2020,"OPM mismatch. Reported: -553.0%, Calculated: 43.81%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2021,"OPM mismatch. Reported: -2469.0%, Calculated: 55.16%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2022,"OPM mismatch. Reported: -839.0%, Calculated: 51.39%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2023,"OPM mismatch. Reported: 2067.0%, Calculated: 42.69%"
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_2024,"OPM mismatch. Reported: 2978.0%, Calculated: 38.55%"
+DQ-02,CRITICAL,profitandloss,company_id/year,INDUSINDBK_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,INDUSINDBK_0,"OPM mismatch. Reported: 1323.0%, Calculated: 41.03%"
+DQ-02,CRITICAL,profitandloss,company_id/year,INFY_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,IOC_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,IRCTC_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,IRFC_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,ITC_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,JINDALSTEL_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,JIOFIN_2023,"OPM mismatch. Reported: 88.0%, Calculated: 86.67%"
+DQ-02,CRITICAL,profitandloss,company_id/year,JIOFIN_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,JSWENERGY_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,JSWSTEEL_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2013,"OPM mismatch. Reported: -1789.0%, Calculated: 60.92%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2014,"OPM mismatch. Reported: -1379.0%, Calculated: 58.84%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2015,"OPM mismatch. Reported: -3366.0%, Calculated: 72.96%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2016,"OPM mismatch. Reported: -2263.0%, Calculated: 56.57%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2017,"OPM mismatch. Reported: -3965.0%, Calculated: 66.44%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2018,"OPM mismatch. Reported: -4141.0%, Calculated: 66.87%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2019,"OPM mismatch. Reported: -5114.0%, Calculated: 66.23%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2020,"OPM mismatch. Reported: -5005.0%, Calculated: 67.45%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2021,"OPM mismatch. Reported: -9958.0%, Calculated: 90.83%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2022,"OPM mismatch. Reported: -8512.0%, Calculated: 90.98%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2023,"OPM mismatch. Reported: -5746.0%, Calculated: 79.44%"
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_2024,"OPM mismatch. Reported: -13382.0%, Calculated: 83.67%"
+DQ-02,CRITICAL,profitandloss,company_id/year,KOTAKBANK_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,KOTAKBANK_0,"OPM mismatch. Reported: -14146.0%, Calculated: 79.42%"
+DQ-02,CRITICAL,profitandloss,company_id/year,LICI_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,LODHA_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,LT_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,LTIM_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,M&M_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,MARUTI_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,MOTHERSON_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,NAUKRI_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,NESTLEIND_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,NHPC_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,NTPC_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,ONGC_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,PFC_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,PIDILITIND_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,PNB_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,POWERGRID_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,RECLTD_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,RELIANCE_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,SBILIFE_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,SBIN_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,SHREECEM_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,SHRIRAMFIN_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,SUNPHARMA_2024,"OPM mismatch. Reported: 28.0%, Calculated: 26.84%"
+DQ-02,CRITICAL,profitandloss,company_id/year,SUNPHARMA_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TATACONSUM_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TATAMOTORS_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TATAPOWER_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TATASTEEL_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TCS_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TECHM_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TITAN_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TORNTPHARM_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TRENT_0,Composite PK contains null or zero values
+DQ-02,CRITICAL,profitandloss,company_id/year,TVSMOTOR_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2013,"OPM mismatch. Reported: 855.0%, Calculated: 90.71%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2014,"OPM mismatch. Reported: 433.0%, Calculated: 96.11%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2015,"OPM mismatch. Reported: 1904.0%, Calculated: 86.33%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2016,"OPM mismatch. Reported: 3164.0%, Calculated: 80.40%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2017,"OPM mismatch. Reported: 2219.0%, Calculated: 88.06%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2018,"OPM mismatch. Reported: 3030.0%, Calculated: 86.84%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2019,"OPM mismatch. Reported: -151.0%, Calculated: 100.53%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2020,"OPM mismatch. Reported: 4069.0%, Calculated: 88.62%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2021,"OPM mismatch. Reported: 2.0%, Calculated: 99.98%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2022,"OPM mismatch. Reported: 558.0%, Calculated: 97.85%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2023,"OPM mismatch. Reported: 6521.0%, Calculated: 88.02%"
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_2024,"OPM mismatch. Reported: 16331.0%, Calculated: 76.30%"
+DQ-02,CRITICAL,profitandloss,company_id/year,INDIGO_0,Composite PK contains null or zero values
+DQ-05,WARNING,profitandloss,opm_percent,INDIGO_0,"OPM mismatch. Reported: 15908.0%, Calculated: 79.20%"

@@ -1,0 +1,4 @@
+database/nifty100.db
+__pycache__/
+.env
+venv/
