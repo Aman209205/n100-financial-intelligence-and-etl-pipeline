@@ -52,7 +52,7 @@ The pipeline maps records with absolute relational integrity (`PRAGMA foreign_ke
 
 ##  Project Directory Structure
 
-'''directory
+```markdown directory
 N100-platform/
 │
 ├── database/
