@@ -46,13 +46,13 @@ The pipeline maps records with absolute relational integrity (`PRAGMA foreign_ke
 |  **prosandcons** | **5** | Formatted Analytical Points |
 |  **peer_groups** | **56** | Competitive Relational Matrix Populated |
 
->  **Exit Criteria Status:** `PRAGMA foreign_key_check` ➔ **0 rows detected**. (Relational database consistency is 100% verified and locked).
+   **Exit Criteria Status:** `PRAGMA foreign_key_check` ➔ **0 rows detected**. (Relational database consistency is 100% verified and locked).
 
 ---
 
 ##  Project Directory Structure
 
-directory
+'''directory
 N100-platform/
 │
 ├── database/
@@ -73,7 +73,7 @@ N100-platform/
 │   └── validation_failures.csv      # Automatically isolated Data Quality violations
 │
 └── README.md                        # Project documentation
-
+'''
 ##  Team & Acknowledgments
 * **Lead Engineer:** Aman Kumar
 * **Assigned To:** vaishnavikhandelwal1781, gauravsinha9182
