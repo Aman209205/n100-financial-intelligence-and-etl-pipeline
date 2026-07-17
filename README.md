@@ -52,7 +52,7 @@ The pipeline maps records with absolute relational integrity (`PRAGMA foreign_ke
 
 ##  Project Directory Structure
 
-```directory
+directory
 N100-platform/
 │
 ├── database/
@@ -80,12 +80,12 @@ N100-platform/
 
 
 ## Project Status & Progress
-* **Current Milestone:** `Sprint 2 — Financial Ratio Engine` Completed Successfully ✅
+* **Current Milestone:** `Sprint 2 — Financial Ratio Engine` Completed Successfully 
 * **Priority:** Medium
 * **Database Engine:** SQLite 3
 * **Target Delivery:** 17 Jul 2026
 
-> **Exit Criteria Status (Sprint 2):** `SELECT COUNT(*) FROM financial_ratios` ➔ **1,165 rows generated** (Exceeds target baseline of >= 1,100 rows). 28 Automated Unit Tests completed with **0 failures**.
+ **Exit Criteria Status (Sprint 2):** `SELECT COUNT(*) FROM financial_ratios` ➔ **1,165 rows generated** (Exceeds target baseline of >= 1,100 rows). 28 Automated Unit Tests completed with **0 failures**.
 
 ---
 
