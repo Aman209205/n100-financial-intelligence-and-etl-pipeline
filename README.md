@@ -121,3 +121,36 @@ Categorizes corporate management strategies by monitoring the numeric algebraic 
 * `(+, -, +)` ➔ **Mixed**
 
 Outputs are compiled automatically into `output/capital_allocation.csv` and mathematical variances are routed into `output/ratio_edge_cases.log`.
+
+## Project Status & Progress
+
+* **Current Milestone:** `Sprint 3 – Screener & Peer Comparison Engine` Completed Successfully ✅
+* **Priority:** High
+* **Target Delivery:** 24 Jul 2026
+
+> **Exit Criteria Status (Sprint 3):** All **14/14 Data Quality Unit Tests** Passed (0 Failures) ➔ `output/screener_output.xlsx` (6 sheets) & `output/peer_comparison.xlsx` (11 sheets) generated cleanly.
+
+---
+
+## Analytical Engines & Features (Sprint 3)
+
+### 1. Dynamic Screener Filter Engine (`src/screener/engine.py` & `screener_config.yaml`)
+* **15-KPI Threshold Filters:** Supports analyst-configurable filters across ROE, D/E, FCF, Revenue CAGR, PAT CAGR, OPM, P/E, P/B, Dividend Yield, ICR, Market Cap, NPM, EPS CAGR, Asset Turnover, and Sales.
+* **Defensive Boundary Rules:** Automatically bypasses D/E limits for the `Financials` sector and treats `Debt Free` flags as infinite Interest Coverage Ratio (ICR).
+* **6 Preset Screeners:** `Quality Compounder`, `Value Pick`, `Growth Accelerator`, `Dividend Champion`, `Debt-Free Blue Chip`, and `Turnaround Watch`.
+
+### 2. Composite Quality Scoring & Screener Export (`src/screener/exporter.py`)
+* **Winsorised 0–100 Quality Score:** Applies P10/P90 Winsorisation to cap extreme outliers before calculating weighted scores across 4 core dimensions:
+  * **35% Profitability:** ROE (15%) + ROCE (10%) + NPM (10%)
+  * **30% Cash Quality:** FCF CAGR (15%) + CFO/PAT Ratio (10%) + Positive FCF Flag (5%)
+  * **20% Growth:** Revenue CAGR (10%) + PAT CAGR (10%)
+  * **15% Leverage:** D/E Score (10%) + ICR Score (5%)
+* **Screener Excel Exporter:** Generates `output/screener_output.xlsx` with 6 sheets (one per preset) featuring 20 KPI columns and condition-based green/red cell highlights.
+
+### 3. Peer Percentile Engine & Visualizations (`src/analytics/peer.py` & `radar.py`)
+* **SQLite Peer Percentiles:** Computes `PERCENT_RANK` across 10 key metrics within each peer group and populates **828 percentile records** into the SQLite `peer_percentiles` table (with inverted percentile scoring for D/E).
+* **8-Axis Radar Chart Visualizer:** Generates polar radar charts comparing company performance against peer group averages, exporting **92 PNG charts** to `reports/radar_charts/`.
+
+### 4. Peer Comparison Workbook Exporter (`src/analytics/peer_report.py`)
+* Generates `output/peer_comparison.xlsx` containing **11 distinct peer group worksheets**.
+* Highlights benchmark companies in gold, applies green/yellow/red color-coding to percentile ranks, and appends a peer group median summary row at the bottom of each sheet.
