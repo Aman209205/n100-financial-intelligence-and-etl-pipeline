@@ -154,3 +154,45 @@ Outputs are compiled automatically into `output/capital_allocation.csv` and math
 ### 4. Peer Comparison Workbook Exporter (`src/analytics/peer_report.py`)
 * Generates `output/peer_comparison.xlsx` containing **11 distinct peer group worksheets**.
 * Highlights benchmark companies in gold, applies green/yellow/red color-coding to percentile ranks, and appends a peer group median summary row at the bottom of each sheet.
+
+## Project Status & Progress
+
+* **Current Milestone:** `Sprint 4 – Dashboard & Valuation Module` Completed Successfully ✅
+* **Priority:** Medium
+* **Target Delivery:** 29 Jul 2026
+
+> **Exit Criteria Status (Sprint 4):** All 8 Streamlit Screens running on `localhost:8501` without errors across all 92 tickers. `output/valuation_summary.xlsx` (92 rows) and `output/valuation_flags.csv` generated cleanly.
+
+---
+
+## Interactive Dashboard & Valuation Deliverables (Sprint 4)
+
+### 1. Multi-Page Streamlit Dashboard (`src/dashboard/app.py` & `src/dashboard/pages/`)
+* **8 Interactive Screens:**
+  * **01_home.py:** Top 6 KPI tiles, Plotly sector breakdown donut chart, and top 5 composite quality score table.
+  * **02_profile.py:** Company search box, 10-year Revenue/Profit bar charts, ROE/ROCE line charts, and Pros/Cons badges.
+  * **03_screener.py:** 10 metric sliders, 6 quick preset buttons, live results table, and CSV exporter.
+  * **04_peers.py:** Peer sector selection, 8-axis Plotly Polar Radar chart, and benchmark comparison table.
+  * **05_trends.py:** Multi-metric overlay 10-year historical trend chart.
+  * **06_sectors.py:** Revenue vs ROE bubble chart (sized by Market Cap) and sector median KPI bar chart.
+  * **07_capital.py:** Capital allocation strategy treemap across 8 distinct allocation patterns.
+  * **08_reports.py:** Searchable BSE annual report links and availability badges.
+
+### 2. Cached Database Data Loader (`src/dashboard/utils/db.py`)
+* Implements `@st.cache_data(ttl=600)` across all SQLite query functions to ensure all screen transitions load in under 3 seconds.
+
+### 3. Valuation Engine (`src/analytics/valuation.py`)
+* **FCF Yield & Valuation Flags:** Calculates FCF Yield ($\frac{\text{FCF}}{\text{Market Cap}} \times 100$) and evaluates P/E against Sector Median P/E:
+  * $\text{P/E} > 1.5 \times \text{Sector Median} \implies$ **Caution**
+  * $\text{P/E} < 0.7 \times \text{Sector Median} \implies$ **Discount**
+  * Otherwise $\implies$ **Fair**
+* **Outputs Generated:** `output/valuation_summary.xlsx` and `output/valuation_flags.csv`.
+
+---
+
+## How to Run the Application
+
+To launch the Streamlit dashboard locally:
+
+```powershell
+streamlit run src/dashboard/app.py
