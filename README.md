@@ -196,3 +196,46 @@ To launch the Streamlit dashboard locally:
 
 ```powershell
 streamlit run src/dashboard/app.py
+
+## Sprint 5 — Intelligence, NLP & PDF Reports Completed ✅
+
+* **Status:** Fully Executed & Verified
+* **Completion Date:** 08 Aug 2026
+
+---
+
+## Deliverables & Modules (Sprint 5)
+
+### 1. NLP Analysis Parser (`src/nlp/parser.py`)
+* Regex engine (`(\d+)\s*Years?:?\s*(-?[\d.]+)%`) to parse structured CAGR and ROE text data from analysis fields.
+* **Outputs Generated:**
+  * `output/analysis_parsed.csv` — Structured metric values across 1, 3, 5, and 10-year horizons.
+  * `output/parse_failures.csv` — Non-matching text logs.
+  * `output/cagr_divergence_flagged.csv` — Cross-validation report flagging >5% variance between parsed text and Ratio Engine metrics.
+
+### 2. Auto Pros & Cons Generator (`src/nlp/pros_cons_generator.py`)
+* Rule-based engine implementing 12 Pro Rules and 12 Con Rules based on financial fundamentals (ROE, FCF, D/E, ICR, OPM, EPS CAGR, etc.).
+* Assigns confidence scores (60%–100%) and enforces a fallback mechanism to guarantee at least 1 Pro and 1 Con for all 92 companies.
+* **Output Generated:** `output/pros_cons_generated.csv` (487 rules generated).
+
+### 3. Cash Flow Intelligence Module (`src/analytics/cashflow_kpis.py`)
+* Computes 5-year average **CFO Quality Score** ($\text{CFO/PAT}$) labeled as *High Quality*, *Moderate*, or *Accrual Risk*.
+* Calculates **CapEx Intensity** ($\frac{|\text{CFI}|}{\text{Sales}} \times 100$) labeled as *Asset Light*, *Moderate*, or *Capital Intensive*.
+* Flags distress signals ($\text{CFO} < 0 \text{ and } \text{CFF} > 0$) and deleveraging trends ($\text{CFF} < 0 \text{ with declining debt}$).
+* **Outputs Generated:**
+  * `output/cashflow_intelligence.xlsx` (92 rows with complete cash flow KPIs).
+  * `output/distress_alerts.csv` (High-risk flagged tickers).
+
+### 4. Capital Allocation Report & Strategy Tracking (`src/analytics/capital_allocation_report.py`)
+* Classifies all companies across 8 distinct capital allocation strategies and logs year-over-year pattern shifts.
+* **Output Generated:** `output/pattern_changes.csv` (69 YoY strategy transitions tracked).
+
+### 5. ReportLab Executive PDF Engine (`src/reports/`)
+* **Company Tearsheets (`src/reports/tearsheet.py`):** 2-page executive PDF tearsheets for all 92 companies with navy headers, KPI tiles, 10-year revenue/profit bar charts, ROE/ROCE line charts, balance sheet stacked bars, cash flow waterfalls, Pros/Cons bullet points, and strategy badges.
+* **Sector Reports (`src/reports/sector_report.py`):** Executive PDF summaries per sector featuring median benchmarks and constituent peer comparison tables.
+* **Batch Generator (`src/reports/batch_generate.py`):** Batch processing engine generating all PDFs cleanly with zero text overflow.
+* **Outputs Generated:**
+  * `reports/tearsheets/*.pdf` — 92 individual company tearsheet PDFs (~100 KB each).
+  * `reports/sector/*_report.pdf` — Sector benchmark PDF reports.
+  * `reports/portfolio/portfolio_summary.pdf` — Alphabetically ordered portfolio summary PDF with KPI trend arrows.
+  * `output/skipped_tearsheets.csv` — Execution log for companies with insufficient data.
