@@ -196,6 +196,7 @@ To launch the Streamlit dashboard locally:
 
 ```powershell
 streamlit run src/dashboard/app.py
+```
 
 ## Sprint 5 — Intelligence, NLP & PDF Reports Completed ✅
 

@@ -1,0 +1,488 @@
+company_id,type,rule_id,text,confidence_pct
+ABB,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ABB,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ABB,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ABB,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ABB,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ADANIENSOL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ADANIENSOL,pro,PRO_5,Operating profit margin above 25% (34.4%) indicates strong pricing power and cost discipline,88
+ADANIENSOL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ADANIENSOL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ADANIENSOL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ADANIENT,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ADANIENT,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ADANIENT,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ADANIENT,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ADANIENT,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ADANIGREEN,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ADANIGREEN,pro,PRO_5,Operating profit margin above 25% (79.4%) indicates strong pricing power and cost discipline,88
+ADANIGREEN,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ADANIGREEN,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ADANIGREEN,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ADANIGREEN,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ADANIPORTS,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ADANIPORTS,pro,PRO_5,Operating profit margin above 25% (58.4%) indicates strong pricing power and cost discipline,88
+ADANIPORTS,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ADANIPORTS,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ADANIPORTS,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ADANIPORTS,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ADANIPOWER,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ADANIPOWER,pro,PRO_5,Operating profit margin above 25% (36.2%) indicates strong pricing power and cost discipline,88
+ADANIPOWER,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ADANIPOWER,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ADANIPOWER,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ADANIPOWER,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+AMBUJACEM,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+AMBUJACEM,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+AMBUJACEM,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+AMBUJACEM,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+APOLLOHOSP,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+APOLLOHOSP,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+APOLLOHOSP,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+APOLLOHOSP,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ASIANPAINT,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ASIANPAINT,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ASIANPAINT,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ASIANPAINT,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ASIANPAINT,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ATGL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ATGL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ATGL,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ATGL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ATGL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+AXISBANK,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+AXISBANK,pro,PRO_5,Operating profit margin above 25% (34.7%) indicates strong pricing power and cost discipline,88
+AXISBANK,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+AXISBANK,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+AXISBANK,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BAJAJ-AUTO,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BAJAJ-AUTO,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BAJAJ-AUTO,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BAJAJ-AUTO,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BAJAJFINSV,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BAJAJFINSV,pro,PRO_5,Operating profit margin above 25% (37.0%) indicates strong pricing power and cost discipline,88
+BAJAJFINSV,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BAJAJFINSV,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+BAJAJFINSV,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BAJAJFINSV,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BAJAJHLDNG,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BAJAJHLDNG,pro,PRO_5,Operating profit margin above 25% (91.8%) indicates strong pricing power and cost discipline,88
+BAJAJHLDNG,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BAJAJHLDNG,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+BAJAJHLDNG,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BAJAJHLDNG,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BAJFINANCE,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BAJFINANCE,pro,PRO_5,Operating profit margin above 25% (29.3%) indicates strong pricing power and cost discipline,88
+BAJFINANCE,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BAJFINANCE,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+BAJFINANCE,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BAJFINANCE,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+BAJFINANCE,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BANKBARODA,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BANKBARODA,pro,PRO_5,Operating profit margin above 25% (37.5%) indicates strong pricing power and cost discipline,88
+BANKBARODA,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BANKBARODA,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+BANKBARODA,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BANKBARODA,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+BANKBARODA,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BEL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BEL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BEL,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+BEL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BEL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BHARTIARTL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BHARTIARTL,pro,PRO_5,Operating profit margin above 25% (52.2%) indicates strong pricing power and cost discipline,88
+BHARTIARTL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BHARTIARTL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BHARTIARTL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BHEL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BHEL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BHEL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BHEL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BOSCHLTD,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BOSCHLTD,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BOSCHLTD,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+BOSCHLTD,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BOSCHLTD,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BPCL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BPCL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BPCL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BPCL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+BRITANNIA,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+BRITANNIA,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+BRITANNIA,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+BRITANNIA,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+CANBK,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+CANBK,pro,PRO_5,Operating profit margin above 25% (41.8%) indicates strong pricing power and cost discipline,88
+CANBK,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+CANBK,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+CANBK,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+CANBK,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+CANBK,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+CHOLAFIN,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+CHOLAFIN,pro,PRO_5,Operating profit margin above 25% (28.1%) indicates strong pricing power and cost discipline,88
+CHOLAFIN,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+CHOLAFIN,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+CHOLAFIN,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+CHOLAFIN,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+CHOLAFIN,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+CIPLA,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+CIPLA,pro,PRO_5,Operating profit margin above 25% (75.6%) indicates strong pricing power and cost discipline,88
+CIPLA,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+CIPLA,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+CIPLA,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+CIPLA,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+CIPLA,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+COALINDIA,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+COALINDIA,pro,PRO_5,Operating profit margin above 25% (66.3%) indicates strong pricing power and cost discipline,88
+COALINDIA,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+COALINDIA,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+COALINDIA,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+COALINDIA,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+COALINDIA,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+DABUR,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+DABUR,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+DABUR,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+DABUR,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+DIVISLAB,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+DIVISLAB,pro,PRO_5,Operating profit margin above 25% (28.2%) indicates strong pricing power and cost discipline,88
+DIVISLAB,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+DIVISLAB,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+DIVISLAB,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+DIVISLAB,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+DLF,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+DLF,pro,PRO_5,Operating profit margin above 25% (33.0%) indicates strong pricing power and cost discipline,88
+DLF,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+DLF,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+DLF,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+DLF,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+DMART,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+DMART,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+DMART,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+DMART,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+DMART,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+DRREDDY,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+DRREDDY,pro,PRO_5,Operating profit margin above 25% (28.3%) indicates strong pricing power and cost discipline,88
+DRREDDY,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+DRREDDY,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+DRREDDY,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+DRREDDY,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+EICHERMOT,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+EICHERMOT,pro,PRO_5,Operating profit margin above 25% (26.2%) indicates strong pricing power and cost discipline,88
+EICHERMOT,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+EICHERMOT,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+EICHERMOT,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+EICHERMOT,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+GAIL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+GAIL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+GAIL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+GAIL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+GODREJCP,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+GODREJCP,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+GODREJCP,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+GRASIM,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+GRASIM,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+GRASIM,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+GRASIM,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+HAL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HAL,pro,PRO_5,Operating profit margin above 25% (32.1%) indicates strong pricing power and cost discipline,88
+HAL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+HAL,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+HAL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+HAL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+HAVELLS,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HAVELLS,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+HAVELLS,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+HAVELLS,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+HCLTECH,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HCLTECH,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+HCLTECH,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+HCLTECH,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+HCLTECH,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+HCLTECH,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+HDFCBANK,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HDFCBANK,pro,PRO_5,Operating profit margin above 25% (61.4%) indicates strong pricing power and cost discipline,88
+HDFCBANK,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+HDFCBANK,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+HDFCBANK,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+HDFCBANK,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+HDFCLIFE,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HDFCLIFE,pro,PRO_5,Operating profit margin above 25% (99.5%) indicates strong pricing power and cost discipline,88
+HDFCLIFE,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+HDFCLIFE,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+HDFCLIFE,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+HDFCLIFE,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+HEROMOTOCO,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HEROMOTOCO,pro,PRO_5,Operating profit margin above 25% (86.1%) indicates strong pricing power and cost discipline,88
+HEROMOTOCO,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+HEROMOTOCO,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+HEROMOTOCO,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+HEROMOTOCO,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+HEROMOTOCO,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+HINDALCO,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HINDALCO,pro,PRO_5,Operating profit margin above 25% (88.9%) indicates strong pricing power and cost discipline,88
+HINDALCO,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+HINDALCO,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+HINDALCO,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+HINDUNILVR,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+HINDUNILVR,pro,PRO_5,Operating profit margin above 25% (76.3%) indicates strong pricing power and cost discipline,88
+HINDUNILVR,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+HINDUNILVR,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+HINDUNILVR,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+HINDUNILVR,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ICICIBANK,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ICICIBANK,pro,PRO_5,Operating profit margin above 25% (62.4%) indicates strong pricing power and cost discipline,88
+ICICIBANK,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ICICIBANK,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ICICIBANK,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ICICIBANK,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+ICICIBANK,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ICICIGI,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ICICIGI,pro,PRO_5,Operating profit margin above 25% (87.4%) indicates strong pricing power and cost discipline,88
+ICICIGI,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ICICIGI,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ICICIGI,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ICICIGI,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+ICICIGI,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ICICIPRULI,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ICICIPRULI,pro,PRO_5,Operating profit margin above 25% (102.0%) indicates strong pricing power and cost discipline,88
+ICICIPRULI,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ICICIPRULI,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ICICIPRULI,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ICICIPRULI,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+INDIGO,pro,PRO_5,Operating profit margin above 25% (76.3%) indicates strong pricing power and cost discipline,88
+INDIGO,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+INDIGO,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+INDIGO,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+INDIGO,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+INDUSINDBK,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+INDUSINDBK,pro,PRO_5,Operating profit margin above 25% (38.6%) indicates strong pricing power and cost discipline,88
+INDUSINDBK,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+INDUSINDBK,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+INDUSINDBK,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+INDUSINDBK,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+INDUSINDBK,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+INFY,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+INFY,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+INFY,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+INFY,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+INFY,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+INFY,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+IOC,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+IOC,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+IOC,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+IOC,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+IRCTC,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+IRCTC,pro,PRO_5,Operating profit margin above 25% (34.3%) indicates strong pricing power and cost discipline,88
+IRCTC,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+IRCTC,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+IRCTC,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+IRCTC,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+IRCTC,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+IRFC,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+IRFC,pro,PRO_5,Operating profit margin above 25% (99.5%) indicates strong pricing power and cost discipline,88
+IRFC,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+IRFC,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+IRFC,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+IRFC,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ITC,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ITC,pro,PRO_5,Operating profit margin above 25% (37.0%) indicates strong pricing power and cost discipline,88
+ITC,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ITC,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+ITC,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ITC,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+JINDALSTEL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+JINDALSTEL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+JINDALSTEL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+JINDALSTEL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+JIOFIN,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+JIOFIN,pro,PRO_5,Operating profit margin above 25% (84.0%) indicates strong pricing power and cost discipline,88
+JIOFIN,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+JIOFIN,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+JIOFIN,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+JSWENERGY,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+JSWENERGY,pro,PRO_5,Operating profit margin above 25% (46.9%) indicates strong pricing power and cost discipline,88
+JSWENERGY,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+JSWENERGY,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+JSWENERGY,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+JSWSTEEL,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+JSWSTEEL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+JSWSTEEL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+JSWSTEEL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+KOTAKBANK,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+KOTAKBANK,pro,PRO_5,Operating profit margin above 25% (83.7%) indicates strong pricing power and cost discipline,88
+KOTAKBANK,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+KOTAKBANK,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+KOTAKBANK,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+KOTAKBANK,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+LICI,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+LICI,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+LICI,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+LICI,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+LICI,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+LODHA,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+LODHA,pro,PRO_5,Operating profit margin above 25% (25.8%) indicates strong pricing power and cost discipline,88
+LODHA,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+LODHA,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+LODHA,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+LT,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+LT,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+LT,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+LT,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+LT,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+LT,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+LTIM,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+LTIM,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+LTIM,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+LTIM,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+LTIM,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+LTIM,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+M&M,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+M&M,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+M&M,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+M&M,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+M&M,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+MARUTI,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+MARUTI,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+MARUTI,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+MARUTI,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+MARUTI,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+MOTHERSON,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+MOTHERSON,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+MOTHERSON,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+MOTHERSON,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+MOTHERSON,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+NAUKRI,pro,PRO_5,Operating profit margin above 25% (28.0%) indicates strong pricing power and cost discipline,88
+NAUKRI,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+NAUKRI,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+NAUKRI,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+NESTLEIND,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+NESTLEIND,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+NESTLEIND,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+NESTLEIND,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+NESTLEIND,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+NHPC,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+NHPC,pro,PRO_5,Operating profit margin above 25% (49.9%) indicates strong pricing power and cost discipline,88
+NHPC,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+NHPC,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+NHPC,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+NTPC,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+NTPC,pro,PRO_5,Operating profit margin above 25% (28.8%) indicates strong pricing power and cost discipline,88
+NTPC,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+NTPC,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+NTPC,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+NTPC,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+ONGC,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+ONGC,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+ONGC,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+ONGC,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+PFC,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+PFC,pro,PRO_5,Operating profit margin above 25% (36.7%) indicates strong pricing power and cost discipline,88
+PFC,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+PFC,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+PFC,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+PFC,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+PIDILITIND,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+PIDILITIND,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+PIDILITIND,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+PIDILITIND,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+PIDILITIND,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+PNB,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+PNB,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+PNB,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+POWERGRID,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+POWERGRID,pro,PRO_5,Operating profit margin above 25% (86.9%) indicates strong pricing power and cost discipline,88
+POWERGRID,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+POWERGRID,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+POWERGRID,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+RECLTD,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+RECLTD,pro,PRO_5,Operating profit margin above 25% (100.8%) indicates strong pricing power and cost discipline,88
+RECLTD,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+RECLTD,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+RECLTD,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+RECLTD,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+RELIANCE,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+RELIANCE,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+RELIANCE,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+RELIANCE,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+RELIANCE,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+SBILIFE,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+SBILIFE,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+SBILIFE,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+SBILIFE,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+SBILIFE,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+SBIN,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+SBIN,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+SBIN,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+SBIN,con,CON_6,Interest coverage ratio below 1.5x indicates the company is at risk of not meeting its debt obligations,92
+SBIN,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+SHREECEM,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+SHREECEM,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+SHREECEM,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+SHREECEM,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+SHRIRAMFIN,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+SHRIRAMFIN,pro,PRO_5,Operating profit margin above 25% (28.9%) indicates strong pricing power and cost discipline,88
+SHRIRAMFIN,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+SHRIRAMFIN,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+SHRIRAMFIN,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+SHRIRAMFIN,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+SIEMENS,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+SIEMENS,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+SIEMENS,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+SIEMENS,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+SIEMENS,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+SUNPHARMA,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+SUNPHARMA,pro,PRO_5,Operating profit margin above 25% (26.8%) indicates strong pricing power and cost discipline,88
+SUNPHARMA,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+SUNPHARMA,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+SUNPHARMA,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+SUNPHARMA,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TATACONSUM,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TATACONSUM,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TATACONSUM,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TATACONSUM,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TATAMOTORS,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TATAMOTORS,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+TATAMOTORS,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TATAMOTORS,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TATAPOWER,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TATAPOWER,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TATAPOWER,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+TATAPOWER,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TATAPOWER,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TATASTEEL,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TATASTEEL,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TATASTEEL,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+TATASTEEL,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TCS,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TCS,pro,PRO_5,Operating profit margin above 25% (26.7%) indicates strong pricing power and cost discipline,88
+TCS,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TCS,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+TCS,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TCS,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TECHM,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TECHM,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TECHM,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TECHM,con,CON_3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,85
+TECHM,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TITAN,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TITAN,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TITAN,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+TITAN,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TITAN,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TORNTPHARM,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TORNTPHARM,pro,PRO_5,Operating profit margin above 25% (31.4%) indicates strong pricing power and cost discipline,88
+TORNTPHARM,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TORNTPHARM,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+TORNTPHARM,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TORNTPHARM,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TRENT,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TRENT,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TRENT,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+TRENT,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TRENT,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
+TVSMOTOR,pro,PRO_1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,95
+TVSMOTOR,pro,PRO_7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85
+TVSMOTOR,pro,PRO_10,Return on equity improving for 3 consecutive years shows strengthening business quality,82
+TVSMOTOR,pro,PRO_11,Revenue growing slower than profits shows improving operating leverage and scale benefits,80
+TVSMOTOR,con,CON_10,Return on capital employed below 10% suggests the business is not generating sufficient returns on invested capital,80
