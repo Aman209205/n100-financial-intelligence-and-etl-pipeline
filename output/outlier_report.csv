@@ -1,0 +1,4 @@
+company_id,sector,metric,metric_value,sector_mean,z_score,outlier_type
+HDFCBANK,Unknown,return_on_equity_pct,65446.0,11971.66,3.31,High Outlier
+RELIANCE,Unknown,return_on_equity_pct,79020.0,11971.66,4.16,High Outlier
+SBIN,Unknown,return_on_equity_pct,69543.0,11971.66,3.57,High Outlier

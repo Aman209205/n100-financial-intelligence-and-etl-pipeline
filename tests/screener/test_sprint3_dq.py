@@ -6,15 +6,20 @@ Day 21 Implementation (14 DQ Rules)
 import os
 import sys
 import sqlite3
-import unittest
 import openpyxl
 import pandas as pd
+import unittest
 
-PROJECT_ROOT = r"C:\N100-platform"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
 DB_PATH = os.path.join(PROJECT_ROOT, "database", "nifty100.db")
+if not os.path.exists(DB_PATH):
+    DB_PATH = os.path.join(PROJECT_ROOT, "nifty100.db")
 
-sys.path.append(os.path.join(PROJECT_ROOT, "src", "screener"))
-from engine import run_preset_screener
+from src.screener.engine import run_preset_screener
 
 class TestSprint3DQSuite(unittest.TestCase):
 
