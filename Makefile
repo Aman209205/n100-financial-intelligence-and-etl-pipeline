@@ -1,17 +1,39 @@
-.PHONY: setup load test clean
+# N100 Financial Analytics Platform - Automation Commands
 
-setup:
-	python -m venv venv
-	./venv/Scripts/pip install -r requirements.txt  
-	
-	mkdir -p raw_data database output src/etl notebooks tests/etl
-	touch src/etl/__init__.py
+PYTHON := python
+PYTEST := pytest
+UVICORN := uvicorn
+STREAMLIT := streamlit
+
+.PHONY: help load ratios test report dashboard api clean check-deliverables
+
+help:
+	@echo "Available Commands:"
+	@echo "  make load        - Load raw Excel files into database"
+	@echo "  make ratios      - Generate financial_ratios table"
+	@echo "  make test        - Run all 102+ pytest tests and generate HTML report"
+	@echo "  make report      - Batch generate all 92 tearsheets, sector, and portfolio PDFs"
+	@echo "  make dashboard   - Launch Streamlit dashboard on localhost:8501"
+	@echo "  make api         - Launch FastAPI REST server on localhost:8000"
+	@echo "  make clean       - Remove cached files (.pyc, __pycache__)"
 
 load:
-	./venv/Scripts/python src/etl/loader.py
+	$(PYTHON) src/etl/loader.py
+
+ratios:
+	$(PYTHON) src/analytics/ratios.py
 
 test:
-	./venv/Scripts/pytest tests/
+	set PYTHONPATH=.&& $(PYTEST) tests/ -v --html=reports/pytest_report.html
+
+report:
+	$(PYTHON) src/reports/batch_generate.py
+
+dashboard:
+	$(STREAMLIT) run src/dashboard/app.py --server.port 8501
+
+api:
+	$(UVICORN) src.api.main:app --port 8000 --reload
 
 clean:
-	rm -rf venv output/*.csv database/*.db
+	powershell -Command "Get-ChildItem -Recurse -Filter '__pycache__' | Remove-Item -Recurse -Force; Get-ChildItem -Recurse -Filter '*.pyc' | Remove-Item -Force"

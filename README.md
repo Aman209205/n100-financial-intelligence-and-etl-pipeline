@@ -276,3 +276,93 @@ streamlit run src/dashboard/app.py
 * **Load Benchmarking (`output/perf_notes.md`):** 10 concurrent thread calls completed cleanly.
 * **Analyst Guide (`docs/analyst_guide.pdf`):** 11-page operational guide for financial analysts and developers.
 * **Acceptance Sign-Off (`docs/acceptance_checklist.pdf`):** Formal PASS verification across all 20 Acceptance Gates (AC-01 through AC-20).
+
+
+# Nifty 100 Financial Analytics Platform
+
+An end-to-end fundamental equity analysis, screener, valuation, and machine learning platform built across 92 constituent companies of the Nifty 100 index.
+
+---
+
+##  Project Overview
+
+The **Nifty 100 Financial Analytics Platform** standardizes, processes, and analyzes 10+ years of audited historical financial statements across non-financial and financial sectors. The platform includes automated ETL pipelines, KPI ratio calculation engines, multi-criteria stock screeners, peer radar charts, ReportLab PDF tearsheet generators, machine learning clustering archetypes, and a production FastAPI backend.
+
+---
+
+##  Key Commands (`Makefile` / CLI)
+
+| Command | Description |
+| :--- | :--- |
+| `make load` | Load raw company Excel files into `data/nifty100.db` |
+| `make ratios` | Compute 10-year historical metrics & populate `financial_ratios` table |
+| `make test` | Run the complete Pytest test suite (102 tests) and export HTML report |
+| `make report` | Batch generate 92 PDF tearsheets, 11 sector reports, and portfolio summary |
+| `make dashboard` | Launch the Streamlit Interactive Dashboard on `http://localhost:8501` |
+| `make api` | Launch the FastAPI REST Server on `http://localhost:8000` (Docs at `/docs`) |
+| `make clean` | Clean cached files (`.pyc`, `__pycache__`) without touching the database |
+
+---
+
+##  Deliverables Matrix — All 23 Outputs
+
+| ID | Sprint | Deliverable Description | Output Path | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **D-01** | Sprint 1 | SQLite Database File | `database/nifty100.db` | **Done [PASS]** |
+| **D-02** | Sprint 1 | Ingestion Audit Log | `output/load_audit.csv` | **Done [PASS]** |
+| **D-03** | Sprint 1 | DQ Validation Failures Log | `output/validation_failures.csv` | **Done [PASS]** |
+| **D-04** | Sprint 1 | Exploratory SQL Analysis Queries | `notebooks/exploratory_queries.sql` | **Done [PASS]** |
+| **D-05** | Sprint 2 | Computed Financial Ratios Table | `database/nifty100.db -> financial_ratios` | **Done [PASS]** |
+| **D-06** | Sprint 2 | Capital Allocation Strategy Output | `output/capital_allocation.csv` | **Done [PASS]** |
+| **D-07** | Sprint 3 | Multi-Preset Screener Output | `output/screener_output.xlsx` | **Done [PASS]** |
+| **D-08** | Sprint 3 | Screener Rules Configuration YAML | `config/screener_config.yaml` | **Done [PASS]** |
+| **D-09** | Sprint 3 | 11-Sector Peer Comparison Workbook | `output/peer_comparison.xlsx` | **Done [PASS]** |
+| **D-10** | Sprint 3 | 92 Company Peer Radar Charts | `reports/radar_charts/` | **Done [PASS]** |
+| **D-11** | Sprint 4 | 8-Screen Interactive Streamlit App | `src/dashboard/app.py` | **Done [PASS]** |
+| **D-12** | Sprint 4 | Valuation & Multiples Workbook | `output/valuation_summary.xlsx` | **Done [PASS]** |
+| **D-13** | Sprint 5 | Cashflow Intelligence Multi-Sheet Excel | `output/cashflow_intelligence.xlsx` | **Done [PASS]** |
+| **D-14** | Sprint 5 | 12-Rule Rule-Engine Pros & Cons Output | `output/pros_cons_generated.csv` | **Done [PASS]** |
+| **D-15** | Sprint 5 | NLP Growth & Profitability Commentary | `output/analysis_parsed.csv` | **Done [PASS]** |
+| **D-16** | Sprint 5 | 92 Two-Page Company PDF Tearsheets | `reports/tearsheets/` | **Done [PASS]** |
+| **D-17** | Sprint 5 | 11 Sector Benchmark PDF Reports | `reports/sector/` | **Done [PASS]** |
+| **D-18** | Sprint 5 | Portfolio Level Executive Summary PDF | `reports/portfolio/portfolio_summary.pdf` | **Done [PASS]** |
+| **D-19** | Sprint 6 | KMeans Archetype Cluster Labels | `output/cluster_labels.csv` | **Done [PASS]** |
+| **D-20** | Sprint 6 | FastAPI REST Server (16 Endpoints) | `src/api/main.py` | **Done [PASS]** |
+| **D-21** | Sprint 6 | Pytest HTML Execution Test Report | `reports/pytest_report.html` | **Done [PASS]** |
+| **D-22** | Sprint 6 | Comprehensive Analyst Guide (11 Pages) | `docs/analyst_guide.pdf` | **Done [PASS]** |
+| **D-23** | Sprint 6 | Acceptance Gates AC-01 to AC-20 Sign-Off | `docs/acceptance_checklist.pdf` | **Done [PASS]** |
+
+---
+
+##  System Architecture
+
+* **Database Engine:** SQLite3 with composite B-Tree indexes on `(company_id, year)`.
+* **Analytics Engine:** NumPy, Pandas, Scikit-Learn (KMeans $k=5$, StandardScaler).
+* **Visualization & Reporting:** Matplotlib, Seaborn, ReportLab (Vector Graphics & Flowables).
+* **API Backend:** FastAPI, Uvicorn, Pydantic, HTTPX.
+* **Testing & Quality Control:** Pytest, Pytest-HTML (`102 passed in < 5.0s`).
+
+---
+
+##  Core Business & Financial Logic Rules
+
+1. **Header Normalization:** Excel files are ingested via `pd.read_excel(path, header=1)` to properly capture multi-row headers.
+2. **Key Standardization:** `company_id` strings are whitespace-trimmed and converted to uppercase prior to table joins.
+3. **Currency Base:** All balance sheet, income statement, and cash flow values are expressed in **INR Crore**.
+4. **Financial Sector Exemption:** Debt-to-Equity (D/E) ratio limits and ROCE operational thresholds are bypassed for banks and NBFCs.
+5. **Turnaround Rule:** If CAGR base period earnings are negative, calculations return `TURNAROUND` rather than an invalid mathematical growth rate.
+6. **Zero Division Guard:** Zero interest expenses return `Debt Free` instead of `inf` or `NaN`.
+7. **Simulated Series Tag:** Stock prices and market cap estimates are explicitly tagged as `SIMULATED`.
+
+---
+
+##  Testing & Verification
+
+Execute the test suite at any time:
+
+```bash
+# Windows PowerShell
+$env:PYTHONPATH="."; pytest tests/ -v --html=reports/pytest_report.html
+
+# Linux / macOS
+PYTHONPATH=. pytest tests/ -v --html=reports/pytest_report.html
